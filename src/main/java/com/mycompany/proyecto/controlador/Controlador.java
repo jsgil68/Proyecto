@@ -28,16 +28,8 @@ public class Controlador implements ActionListener {
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        model.setNametitle(view.txtNametitle.getText());
         
     }
-    
-    
-    
-    
-    
-    
-    //------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public static Menu menus = new Menu();
     public static void mostrar(){ 
         menus.setVisible(true);

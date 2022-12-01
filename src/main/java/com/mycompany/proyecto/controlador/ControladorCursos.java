@@ -23,13 +23,12 @@ public class ControladorCursos implements ActionListener{
         this.curse = curse;
         this.cursemod = cursemod;
     }
-    
     @Override
     public void actionPerformed(ActionEvent e) {
         
+        
     }
    
-    //------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public static Cursos menus = new Cursos();
     public static void mostrar(){ 
         menus.setVisible(true);

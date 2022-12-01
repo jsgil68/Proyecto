@@ -11,6 +11,8 @@ import com.mycompany.proyecto.vista.Menu;
  * @author USUARIO
  */
 public class ControladorPrincipal {
+    
+    
     public static Menu menu = new Menu();
     public static void mostrar(){ 
         menu.setVisible(true);
